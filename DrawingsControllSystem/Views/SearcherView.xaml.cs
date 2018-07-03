@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DrawingsControllSystem
+namespace DrawingsControllSystem.Views
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для SearcherView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SearcherView : Page
     {
-        public MainWindow()
+        public SearcherView()
         {
             InitializeComponent();
         }
